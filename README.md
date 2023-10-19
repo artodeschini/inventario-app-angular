@@ -2,7 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
-## app criado
+## bootstrap
+
+Este projeto utiliza o framework [bootstrap](https://getbootstrap.com/) na versão 5.3
+
+## Api Rest Java spring
+
+A [Api desenvolvida com spring](https://github.com/artodeschini/inventario-api-spring)
+
+## acesso a console do h2
+
+[h2console](http://localhost:8080/h2-console)
+
+`url`: `jdbc:h2:mem:testdb`
+`user`: `sa`
+`pass`: `sa`
+
+## comando para a criar os elementos do projeto
 
 ```bash
 # criando o app

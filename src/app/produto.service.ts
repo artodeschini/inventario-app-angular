@@ -19,4 +19,16 @@ export class ProdutoService {
   addProduto(produto: Produto):Observable<Object> {
     return this.clienteHttp.post(this.urlBase, produto);
   }
+
+  getProdutoById(id: number) {
+    return this.clienteHttp.get<Produto>(`${this.urlBase}/${id}`);
+  }
+
+  editarProduto(id: number, produto: Produto) {
+    return this.clienteHttp.put(`${this.urlBase}/${id}`, produto);
+  }
+
+  deleteProdutoById(id: number) {
+    return this.clienteHttp.delete(`${this.urlBase}/${id}`);
+  }
 }
