@@ -2,9 +2,31 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
+## app criado
+
+```bash
+# criando o app
+npx -p @angular/cli ng new sistema-intentario-app-angular
+
+# criando classe model produto
+npm run ng g class produto --skip-tests
+
+# criando componente de listagem de produtos
+npm run ng g c listar-produto --skip-tests
+
+# criando o servico
+npm run ng g s produto --skip-tests
+
+# adicionar produtos
+npm run ng g c adicionar-produto --skip-tests
+
+# editar produto
+npm run ng g c editar-produto --skip-tests
+```
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

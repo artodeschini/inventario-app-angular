@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="container text-center" style="margin: 30px;">
+        <h3>Sistema de Inventários</h3>
+    </div>
+    
+
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Quantidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of produtos">
+            <th scope="row">{{p.id}}</th>
+            <td>{{p.descricao}}</td>
+            <td>{{p.preco}}</td>
+            <td>{{p.quantidade}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
